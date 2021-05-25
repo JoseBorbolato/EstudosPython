@@ -2,5 +2,7 @@
     "python.pythonPath": "venv\\Scripts\\python.exe",
     "code-runner.executorMap": {
         "python": "venv\\Scripts\\python.exe"
-    }
+    },
+    "jupyter.jupyterServerType": "local",
+    "python.analysis.useImportHeuristic": true
 }
