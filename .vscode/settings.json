@@ -4,5 +4,14 @@
         "python": "venv\\Scripts\\python.exe"
     },
     "jupyter.jupyterServerType": "local",
-    "python.analysis.useImportHeuristic": true
+    "python.analysis.useImportHeuristic": true,
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:EstudosPython}/CodigosEstudos/SQLiteCorporeRM.db",
+            "name": "tgesyte"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
 }

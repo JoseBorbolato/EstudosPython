@@ -3,6 +3,10 @@
 # Quando a fução não encontra nenhum return, ela retorna None como padrão
 
 
+import numpy
+import random
+
+
 def func(var='default'):
     return 'Valor do meu return'
     print(var)
@@ -43,5 +47,9 @@ def executafuncoes(funcoes):
     return(funcoes())
 
 
-print(executafuncoes(ola))
-print(executafuncoes(mundo))
+if __name__ == '__main__':
+    print(executafuncoes(ola))
+    print(executafuncoes(mundo))
+    print(random.randint(1, 2))
+    print(random)
+    print(numpy)
