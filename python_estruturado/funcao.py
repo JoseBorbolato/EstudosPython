@@ -3,6 +3,7 @@
 # Quando a fução não encontra nenhum return, ela retorna None como padrão
 
 
+from minhasClasses import Pessoa
 import numpy
 import random
 
@@ -53,3 +54,9 @@ if __name__ == '__main__':
     print(random.randint(1, 2))
     print(random)
     print(numpy)
+
+
+jordan = Pessoa()
+print(jordan.nome)
+jordan.nome_maiusc()
+print(jordan.nome)
